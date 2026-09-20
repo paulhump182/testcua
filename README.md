@@ -7,9 +7,12 @@ Aplikasi Web Sensus Penduduk Indonesia berbasis **PHP & MySQL/MariaDB (disertai 
 
 ## 📄 Publikasi Karya Ilmiah & White Paper (PDF)
 
-Proyek ini dilengkapi naskah publikasi ilmiah populer setebal **15 Halaman A4** yang ditulis dengan bahasa yang mudah dipahami oleh orang awam (menggunakan analogi kognitif *System 1 vs System 2* dan dekonstruksi *Otak vs Tangan*), serta telah lulus audit mutu **Independent Peer Review** dengan predikat **APPROVED (Skor: 9.81 / 10.0)**:
+**Penulis / Author:** **Richie Octavian S.** (*Pemerhati AI dari Panita Community Gorontalo*)  
+Karya ilmiah populer setebal **15 Halaman A4** yang menyajikan solusi otomasi formulir sensus menggunakan model AI CUA-S1 dengan bahasa yang mudah dipahami oleh orang awam (menggunakan analogi kognitif *System 1 vs System 2* dan dekonstruksi *Otak vs Tangan*), serta telah lulus audit mutu **Independent Peer Review** dengan predikat **APPROVED (Skor: 9.81 / 10.0)**.
 
-- 📑 **Berkas PDF Resmi:** [**`Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf`**](./Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf) *(15 Halaman, 2.47 MB, layout jurnal modern ReportLab)*
+Tersedia dalam dua versi bahasa resmi:
+- 🇮🇩 **Edisi Bahasa Indonesia (PDF):** [**`Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf`**](./Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf) *(15 Halaman, 2.47 MB)*
+- 🇬🇧 **English Edition (PDF):** [**`Scientific_Paper_CUA_S1_AI_Census_Form_Automation_EN.pdf`**](./Scientific_Paper_CUA_S1_AI_Census_Form_Automation_EN.pdf) *(13-15 Halaman, 2.44 MB)*
 - 📝 **Naskah Sumber Markdown:** [`publikasi_ilmiah_cua/naskah_karya_ilmiah.md`](./publikasi_ilmiah_cua/naskah_karya_ilmiah.md)
 - 🖼️ **Diagram Teknis & Infografis 300 DPI:**
   - [Diagram 1: Alur Sistem End-to-End Lapangan ke Intranet](./publikasi_ilmiah_cua/images/diagram_1_alur_sistem.png)
@@ -46,7 +49,8 @@ Model AI **CUA-S1-FORMS** bertindak sebagai robot asisten kantor cerdas. Model A
 
 ```text
 ├── README.md                                  # Dokumentasi utama proyek
-├── Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf    # Publikasi karya ilmiah & white paper lengkap (15 Halaman)
+├── Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf    # Publikasi karya ilmiah Edisi Bahasa Indonesia (Richie Octavian S.)
+├── Scientific_Paper_CUA_S1_AI_Census_Form_Automation_EN.pdf # Scientific Paper English Edition (Richie Octavian S.)
 ├── TUTORIAL_CUA_S1_FORMS.txt                  # Panduan lengkap ramah pemula (bahasa orang awam)
 ├── sensus_penduduk_indonesia_2024_dummy.csv   # Dataset 200 data sensus mentah standar 28 kolom
 ├── publikasi_ilmiah_cua/                      # Berkas sumber karya ilmiah & visual diagram

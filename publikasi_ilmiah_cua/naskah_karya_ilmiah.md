@@ -1,8 +1,8 @@
 # Otomasi Pengisian Formulir Kependudukan Menggunakan Model Kecerdasan Buatan CUA-S1-FORMS: Menjembatani Formulir Lapangan Eksternal dengan Sistem Sensus Internal Tertutup
 
 **Penulis:**  
-**Tim Peneliti & Perekayasa Sistem Cerdas Kependudukan**  
-*Laboratorium Rekayasa Perangkat Lunak & Sistem Cerdas Terapan*  
+**Richie Octavian S.**  
+*Pemerhati AI dari Panita Community Gorontalo*  
 *Dipublikasikan dalam Seri Publikasi Ilmiah Populer Teknologi Informasi & Rekayasa AI*  
 *Tanggal: 20 September 2026*
 
