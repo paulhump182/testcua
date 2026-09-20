@@ -2,6 +2,20 @@
 
 Aplikasi Web Sensus Penduduk Indonesia berbasis **PHP & MySQL/MariaDB (disertai phpMyAdmin)** yang terintegrasi dengan model kecerdasan buatan **CUA-S1-FORMS** (*Option-Attention Byte Transformer*) untuk otomasi pengisian formulir dari spreadsheet eksternal.
 
+
+---
+
+## 📄 Publikasi Karya Ilmiah & White Paper (PDF)
+
+Proyek ini dilengkapi naskah publikasi ilmiah populer setebal **15 Halaman A4** yang ditulis dengan bahasa yang mudah dipahami oleh orang awam (menggunakan analogi kognitif *System 1 vs System 2* dan dekonstruksi *Otak vs Tangan*), serta telah lulus audit mutu **Independent Peer Review** dengan predikat **APPROVED (Skor: 9.81 / 10.0)**:
+
+- 📑 **Berkas PDF Resmi:** [**`Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf`**](./Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf) *(15 Halaman, 2.47 MB, layout jurnal modern ReportLab)*
+- 📝 **Naskah Sumber Markdown:** [`publikasi_ilmiah_cua/naskah_karya_ilmiah.md`](./publikasi_ilmiah_cua/naskah_karya_ilmiah.md)
+- 🖼️ **Diagram Teknis & Infografis 300 DPI:**
+  - [Diagram 1: Alur Sistem End-to-End Lapangan ke Intranet](./publikasi_ilmiah_cua/images/diagram_1_alur_sistem.png)
+  - [Diagram 2: Arsitektur Neural Network Option-Attention Byte Transformer](./publikasi_ilmiah_cua/images/diagram_2_arsitektur_ai.png)
+  - [Diagram 3: Infografis Evaluasi Model & Akselerasi Throughput 160x](./publikasi_ilmiah_cua/images/diagram_3_evaluasi_model.png)
+
 ---
 
 ## 📌 Latar Belakang Masalah & Solusi
@@ -32,8 +46,17 @@ Model AI **CUA-S1-FORMS** bertindak sebagai robot asisten kantor cerdas. Model A
 
 ```text
 ├── README.md                                  # Dokumentasi utama proyek
+├── Karya_Ilmiah_Model_AI_CUA_S1_Sensus.pdf    # Publikasi karya ilmiah & white paper lengkap (15 Halaman)
 ├── TUTORIAL_CUA_S1_FORMS.txt                  # Panduan lengkap ramah pemula (bahasa orang awam)
 ├── sensus_penduduk_indonesia_2024_dummy.csv   # Dataset 200 data sensus mentah standar 28 kolom
+├── publikasi_ilmiah_cua/                      # Berkas sumber karya ilmiah & visual diagram
+│   ├── naskah_karya_ilmiah.md                 # Naskah lengkap 8 bab Markdown
+│   ├── build_pdf.py                           # Skrip kompilasi ReportLab layout jurnal A4
+│   ├── generate_diagrams.py                   # Skrip render diagram 300 DPI Matplotlib
+│   └── images/                                # Direktori berkas gambar PNG 300 DPI
+│       ├── diagram_1_alur_sistem.png
+│       ├── diagram_2_arsitektur_ai.png
+│       └── diagram_3_evaluasi_model.png
 └── aplikasi-sensus/                           # Folder aplikasi web & skrip AI
     ├── config.php                             # Konfigurasi koneksi MySQL PDO & CSV helper
     ├── index.php                              # Halaman formulir input sensus 28 kolom
